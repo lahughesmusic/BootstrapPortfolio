@@ -1,0 +1,152 @@
+.right-tabs{
+    float: right;
+    position: absolute;
+    right: 10px;
+}
+
+.logo{
+    background-color: #4aaaa5;
+    color: white;
+    height: 70px;
+    margin: 0;
+    padding: auto;
+}
+
+.navbar{
+    border
+}
+
+.content{
+    width: 70%;
+    border: 2px solid #cccccc;
+    background: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+p{
+    margin: 0px 30px;
+}
+
+body{
+    background-image: url(./images/dust_scratches/dust_scratches.png)
+}
+
+.logo{
+    padding: 10px;
+}
+
+.profilePic{
+    clear: both;
+    width: 200px;
+    height: 200px;
+}
+
+
+.container{
+    background-color: white;
+    width: 960px;
+    margin: 100px auto;
+    border: 2px solid #cccccc;
+    border-radius: 0.5em;
+
+
+}
+
+.images{
+    width: 100%;
+    margin: 6px auto;
+    position: relative;
+    z-index: 1
+
+}
+
+.littleLine{
+    border: 1px solid #cccccc;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+h1{
+    color: #4aaaa5;
+}
+
+h3{
+        position: relative;
+        top: 150px;
+        background: #4aaaa5;
+        height: 40px;
+        width: 100%;
+        display: block;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        color: #ffffff;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-weight: lighter;
+        z-index: 2;
+}
+
+.teal{
+    color: #4aaaa5;
+}
+
+/* .Ex{
+    color: pink;
+    font-size: 100px;
+} */
+
+    @media only screen and (max-width: 1024px) {
+        .images{
+            width: 100%;
+        }
+
+       
+
+    @media only screen and (max-width: 1024px) {
+
+            .content {
+                width: 60%; 
+                margin: 0 50px;
+                padding: 30px;
+            }
+           
+            .container {
+                width: 60%; 
+                margin-left: 0 50px;
+                padding: 30px;
+            }
+        
+        
+            img{
+                width: 50%;
+            }
+
+            .links{
+                padding: 60px;
+                font-size: 20px;
+            }
+        }
+
+        
+       
+
+@media only screen and (max-width: 980px){}
+@media only screen and (max-width: 768px){}
+@media only screen and (max-width: 640px){
+    .header{
+        position: static;
+    }
+
+  
+
+
+
+
+}
+
+  
+
+
+
